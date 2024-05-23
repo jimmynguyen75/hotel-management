@@ -2,9 +2,8 @@
 
 import { FC } from 'react';
 import Image from 'next/image';
-
-import { Room } from '@/models/room';
 import Link from 'next/link';
+import { Room } from '@/models/room';
 
 type Props = {
   featuredRoom: Room;
